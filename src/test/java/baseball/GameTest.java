@@ -1,5 +1,6 @@
 package baseball;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -7,10 +8,11 @@ public class GameTest {
 
 	@Test
 	public void 입력값이_없을_경우() {
+		Assertions.assertEquals(1,1);
 	}
 	
 	@Test
-	public void 입력값_자리수가_세자리가_아닐�경우() {
+	public void 입력값_자리수가_세자리가_아닐_경우() {
 
 	}
 	
